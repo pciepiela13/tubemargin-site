@@ -12,7 +12,7 @@
 <header class="top"><div class="wrap"><a class="brand" href="/"><img src="icon-128.png" alt="" width="32" height="32">TubeMargin</a><nav><a href="/">Home</a></nav></div></header>
 <main class="wrap narrow doc">
 <h1>Privacy policy</h1>
-<p>Last updated: 16 October 2026. Short version: TubeMargin keeps your data in your own browser, has no analytics, and sells nothing.</p>
+<p>Last updated: 25 October 2026. Short version: TubeMargin keeps your data in your own browser unless you send it to an AI you choose, has no analytics, and sells nothing.</p>
 
 <h2>Who we are</h2>
 <p>TubeMargin is operated by <span data-legal></span> ("we"). Contact: <a data-email href="#"></a>.</p>
@@ -26,7 +26,8 @@
 <h2>What the extension does over the network</h2>
 <ul>
 <li><strong>YouTube.</strong> Transcripts and captions are fetched from YouTube, by your browser, the same way YouTube's own player gets them. Nothing about the video is sent to us.</li>
-<li><strong>The AI site you pick.</strong> When you choose ChatGPT, Claude or Gemini, TubeMargin opens that site in a new tab and pastes the prompt and transcript you chose into the message box. It goes to that site, inside your own account there, and is covered by that company's terms and privacy policy. Nothing goes to any AI service unless you click to send it. We add nothing to your prompt.</li>
+<li><strong>The AI site you pick.</strong> When you choose ChatGPT, Claude or Gemini, TubeMargin opens that site in a new tab and pastes the prompt and transcript you chose into the message box. It goes to that site, inside your own account there, and is covered by that company's terms and privacy policy. Through this hand-off, nothing goes to an AI site unless you click to send it. We add nothing to your prompt.</li>
+<li><strong>Your own AI key (optional).</strong> If you add your own Anthropic (Claude) or OpenAI (ChatGPT) API key in settings, the key is stored only in this browser. Once a key is added, TubeMargin summarizes each video when you open it, unless you turn that off in settings. For a summary or an answer it sends the video title, channel, link and transcript, plus your questions in that chat, straight from your browser to the company you picked, under your own account and that company's terms and privacy policy. It never passes through us. A finished summary is kept in your browser, so reopening the video does not summarize it again. Remove the key in settings at any time.</li>
 <li><strong>Payments.</strong> Pro is sold through ExtensionPay, which uses Stripe, and the money goes to our own Stripe account. If you buy or log in, ExtensionPay and Stripe receive your email address and payment details and handle your purchase, and we receive your email address and the record of your purchase. We never receive your card number. Once you have upgraded or restored a purchase, the extension contacts ExtensionPay automatically to check whether your plan is active: when you open YouTube (at most once every 10 minutes) and when you open TubeMargin's settings page. That check carries no information about your videos or notes. If you have never upgraded or restored, it makes no request. See <a href="https://extensionpay.com/privacy">ExtensionPay's</a> and <a href="https://stripe.com/privacy">Stripe's</a> privacy policies.</li>
 </ul>
 
@@ -39,7 +40,7 @@
 </ul>
 
 <h2>Permissions the extension asks for</h2>
-<p>Storage (to keep your notes and settings), unlimited storage (so a large library fits), and access to youtube.com (to show the panel and read the transcript), chatgpt.com, claude.ai and gemini.google.com (to paste your prompt), and extensionpay.com (for the plan check and purchase). It uses these for nothing else.</p>
+<p>Storage (to keep your notes and settings), unlimited storage (so a large library fits), and access to youtube.com (to show the panel and read the transcript), chatgpt.com, claude.ai and gemini.google.com (to paste your prompt), and extensionpay.com (for the plan check and purchase). Only if you add your own AI key, it also asks for access to api.anthropic.com or api.openai.com, for that company alone. It uses these for nothing else.</p>
 
 <h2>Your rights</h2>
 <p>We hold no personal data about how you use the extension. If you buy Pro, we receive your email address and the record of your purchase (never your card number) through ExtensionPay and our Stripe account, and keep them for accounting, refunds and support. We also keep emails you send us for support, only to answer you. If you are in the EU or UK you have rights of access, correction, deletion and complaint to your data protection authority. Write to us and we will act on it. For data held by ExtensionPay or Stripe, contact them.</p>
